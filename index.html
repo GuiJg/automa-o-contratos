@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="agil-logo.jpg">
+    <title>ÁGIL - Formulário</title>
+</head>
+<body>
+    <main>
+        <img src="agil-logo.jpg" alt="logo da agil contabil">
+        <h1>Preencha o Formulário</h1>
+        <form id="contractForm">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="nome" required>
+        
+            <label for="rg">RG:</label>
+            <input type="number" id="rg" name="rg">
+        
+            <label for="cpf">CPF:</label>
+            <input type="number" id="cpf" name="cpf">
+        
+            <label for="orgao">Orgão:</label>
+            <input type="text" id="orgao" name="orgao">
+        
+            <label for="mae">Nome da mãe:</label>
+            <input type="text" id="mae" name="nome_mae">
+        
+            <label for="pai">Nome do pai:</label>
+            <input type="text" id="pai" name="nome_pai">
+        
+            <label for="endereco">Endereço:</label>
+            <input type="text" id="endereco" name="endereco">
+        
+            <label for="matricula">Matricula:</label>
+            <input type="number" id="matricula" name="matricula">
+        
+            <label for="municipio_estado">Municipio/Estado:</label>
+            <input type="text" id="municipio_estado" name="municipio_estado">
+        
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email">
+        
+            <button type="button" onclick="submitForm()">Baixar Contrato</button>
+        </form>
+        
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
